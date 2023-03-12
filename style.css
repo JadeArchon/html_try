@@ -1,0 +1,94 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+html,
+body,
+.background {
+  width: 100%;
+  height: 100%;
+}
+
+html, body, h1, p, h4, ul, .background {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header_title {
+  
+    font-size: 28px;
+    font-weight: 510;
+    line-height: 39px;
+}
+
+.background {
+  background-color: lightgray;
+}
+
+.container {
+  max-width: 1200px;
+  height: auto;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+.header { 
+  margin-bottom: 16px;
+}
+
+.pagination { 
+  margin-bottom: 16px;
+}
+
+.item {
+  width: 150px;
+  height: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.anime_title {
+  margin-top: 5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.anime  {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   row-gap: 24px;
+   column-gap: 16px;
+ }
+
+ .filters_title {
+  text-transform: uppercase;
+  width: 196px;
+  padding: 4px;
+  background-color: #e8ebef;
+  margin-bottom: 6px;
+ }
+
+ .anime_table {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+ }
