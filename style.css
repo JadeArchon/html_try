@@ -1,5 +1,6 @@
 html {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 html,
@@ -9,7 +10,13 @@ body,
   height: 100%;
 }
 
-html, body, h1, p, h4, ul, .background {
+html,
+body,
+h1,
+p,
+h4,
+ul,
+.background {
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,10 +32,9 @@ li {
 }
 
 .header_title {
-  
-    font-size: 28px;
-    font-weight: 510;
-    line-height: 39px;
+  font-size: 28px;
+  font-weight: 510;
+  line-height: 39px;
 }
 
 .background {
@@ -44,11 +50,11 @@ li {
   padding: 16px;
 }
 
-.header { 
+.header {
   margin-bottom: 16px;
 }
 
-.pagination { 
+.pagination {
   margin-bottom: 16px;
 }
 
@@ -71,24 +77,24 @@ img {
   justify-content: space-between;
 }
 
-.anime  {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   row-gap: 24px;
-   column-gap: 16px;
- }
+.anime {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 16px;
+}
 
- .filters_title {
+.filters_title {
   text-transform: uppercase;
   width: 196px;
   padding: 4px;
   background-color: #e8ebef;
   margin-bottom: 6px;
- }
+}
 
- .anime_table {
-    display: flex;
-    gap: 16px;
-    align-items: flex-start;
- }
+.anime_table {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
