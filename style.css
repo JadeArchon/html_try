@@ -95,6 +95,6 @@ img {
 
 .anime_table {
   display: flex;
-  gap: 16px;
+  gap: 18px;
   align-items: flex-start;
 }
